@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Maven Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ExtentReportListener.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="Test Maven Testing(failed)">
+    <classes>
+      <class name="test.Tests">
+        <methods>
+          <include name="TweetWithValidTweetTwice"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+          <include name="TweetWithValidGif"/>
+        </methods>
+      </class> <!-- test.Tests -->
+    </classes>
+  </test> <!-- Test Maven Testing(failed) -->
+</suite> <!-- Failed suite [Test Maven Suite] -->

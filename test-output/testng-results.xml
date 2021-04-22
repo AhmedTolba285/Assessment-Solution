@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-22T18:18:48Z" name="Default suite" finished-at="2021-04-22T18:19:52Z" duration-ms="63470">
+    <groups>
+    </groups>
+    <test started-at="2021-04-22T18:18:48Z" name="Default test" finished-at="2021-04-22T18:19:52Z" duration-ms="63470">
+      <class name="test.Tests">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:18:48Z" name="StartReport" finished-at="2021-04-22T18:18:49Z" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:18:49Z" name="Setup" finished-at="2021-04-22T18:18:50Z" duration-ms="1693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TestAddingPoll()[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:18:50Z" name="TestAddingPoll" finished-at="2021-04-22T18:18:58Z" duration-ms="7989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddingPoll -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:18:58Z" name="tearDown" finished-at="2021-04-22T18:19:03Z" duration-ms="4724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestAddingPoll status=SUCCESS method=Tests.TestAddingPoll()[pri:0, instance:test.Tests@7a3793c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:19:03Z" name="Setup" finished-at="2021-04-22T18:19:04Z" duration-ms="1324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TweetWithInvalidFileType()[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:19:04Z" name="TweetWithInvalidFileType" finished-at="2021-04-22T18:19:10Z" duration-ms="5453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TweetWithInvalidFileType -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:19:10Z" name="tearDown" finished-at="2021-04-22T18:19:10Z" duration-ms="586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TweetWithInvalidFileType status=SUCCESS method=Tests.TweetWithInvalidFileType()[pri:0, instance:test.Tests@7a3793c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:19:10Z" name="Setup" finished-at="2021-04-22T18:19:12Z" duration-ms="1378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TweetWithMoreThanMaxLength()[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:19:12Z" name="TweetWithMoreThanMaxLength" finished-at="2021-04-22T18:19:19Z" duration-ms="7573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TweetWithMoreThanMaxLength -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:19:19Z" name="tearDown" finished-at="2021-04-22T18:19:24Z" duration-ms="4957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TweetWithMoreThanMaxLength status=SUCCESS method=Tests.TweetWithMoreThanMaxLength()[pri:0, instance:test.Tests@7a3793c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:19:24Z" name="Setup" finished-at="2021-04-22T18:19:26Z" duration-ms="1292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TweetWithValidGif()[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:19:26Z" name="TweetWithValidGif" finished-at="2021-04-22T18:19:36Z" duration-ms="10077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TweetWithValidGif -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:19:36Z" name="tearDown" finished-at="2021-04-22T18:19:36Z" duration-ms="534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TweetWithValidGif status=SUCCESS method=Tests.TweetWithValidGif()[pri:0, instance:test.Tests@7a3793c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:19:36Z" name="Setup" finished-at="2021-04-22T18:19:38Z" duration-ms="1410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TweetWithValidText()[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:19:38Z" name="TweetWithValidText" finished-at="2021-04-22T18:19:43Z" duration-ms="5274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TweetWithValidText -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:19:43Z" name="tearDown" finished-at="2021-04-22T18:19:44Z" duration-ms="743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TweetWithValidText status=SUCCESS method=Tests.TweetWithValidText()[pri:0, instance:test.Tests@7a3793c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:19:44Z" name="Setup" finished-at="2021-04-22T18:19:45Z" duration-ms="1420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TweetWithValidTweetTwice()[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:19:45Z" name="TweetWithValidTweetTwice" finished-at="2021-04-22T18:19:51Z" duration-ms="5839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TweetWithValidTweetTwice -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.Tests@7a3793c7]" started-at="2021-04-22T18:19:51Z" name="tearDown" finished-at="2021-04-22T18:19:52Z" duration-ms="882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TweetWithValidTweetTwice status=SUCCESS method=Tests.TweetWithValidTweetTwice()[pri:0, instance:test.Tests@7a3793c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
